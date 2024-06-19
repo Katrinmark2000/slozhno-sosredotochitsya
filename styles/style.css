@@ -15,6 +15,7 @@
   height: 100vh;
   min-height: 768px;
   font-family: var(--main-font);
+  position: relative;
 }
 
 .header__theme-menu-list {
@@ -49,10 +50,6 @@
 .header__theme-menu-button_active {
   border: 1px solid currentColor;
   pointer-events: none;
-}
-
-.header {
-  position: relative;
 }
 
 .decorated-zone {
@@ -92,7 +89,7 @@
 .rec {
   position: absolute;
   font-size: 18px;
-  color: var(--accent-color);
+  color: var(--rec-color);
   line-height: 25px;
   right: 33px;
   top: 20px;
@@ -107,8 +104,8 @@
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background-color: var(--accent-color);
-  box-shadow: 0 0 3px 3px var(--accent-color);
+  background-color: var(--rec-color);
+  box-shadow: 0 0 3px 3px var(--rec-color);
 }
 
 .decorated-zone::after {
@@ -169,7 +166,7 @@
 .concentration_section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 18px;
   padding-block-start: 74px;
 }
 
@@ -181,7 +178,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 10px;
-  padding-block-start: 52px;
+  padding-block-start: 79px;
 }
 
 .gold_fish_article {
@@ -204,7 +201,7 @@
 }
 
 .gallery {
-  padding-block-start: 81px;
+  padding-block-start: 78px;
 }
 
 .gallery_decor {
@@ -241,7 +238,7 @@
 }
 
 footer {
-  padding-block-start: 60px;
+  padding-block-start: 70px;
   min-height: 768px;
   position: relative;
   display: flex;
@@ -310,7 +307,7 @@ footer {
     padding-block-start: 178px;
   }
 
-  .paragraph_header { 
+  .paragraph_header {
     padding-block-end: 163px;
     max-width: 364px;
   }
@@ -343,8 +340,11 @@ footer {
     justify-content: space-around;
   }
   .section_title {
-    max-width: 150px;
     margin-block-end: 20px;
+  }
+
+  .concentration_title {
+    max-width: 150px;
   }
 
   .food, .gadget {
@@ -394,6 +394,7 @@ footer {
 @media (width <= 375px) {
   .header__theme-menu-list {
     padding-block-start: 64px;
+  
   }
 
   .main,.decorated-zone {
@@ -401,9 +402,10 @@ footer {
   }
 
   .header_title {
-    padding-block-start: 67px;
+    padding-block-start: 65px;
     margin-inline-start: 0;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    letter-spacing: -3.3px;
   }
 
   .paragraph_header {
