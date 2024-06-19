@@ -7,7 +7,6 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--background-color);
-
 }
 
 .header {
@@ -16,7 +15,6 @@
   height: 100vh;
   min-height: 768px;
   font-family: var(--main-font);
-  
 }
 
 .header__theme-menu-list {
@@ -272,7 +270,6 @@ footer {
   left: 24px;
   bottom: -10px;
 }
-
 
 .footer_title {
   font-family: var(--main-font);

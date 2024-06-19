@@ -9,8 +9,6 @@
   --color-hover-button: #32312D66;
   --text-color-decor: #353430;
   --color-section-title: #353430;
-
-
 }
 
   @media (prefers-color-scheme: light) {
@@ -30,6 +28,7 @@
     .rec {
       display: none;
     }
+
     .rec::after {
       display: none;
     }
