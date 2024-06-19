@@ -146,7 +146,7 @@
 .section_title {
   grid-column: 1/2;
   color: var(--color-section-title);
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .concentration_article {
@@ -157,6 +157,7 @@
   line-height: 23.4px;
   padding-block-start: 10px;
   color: var(--text-color);
+  font-size: 17px;
 }
 
 .subtitle {
@@ -178,7 +179,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 10px;
-  padding-block-start: 79px;
+  padding-block-start: 76px;
 }
 
 .gold_fish_article {
@@ -238,8 +239,9 @@
 }
 
 footer {
-  padding-block-start: 50px;
-  min-height: 788px;
+  padding-block-start: 70px;
+  margin-block-end: 38px;
+  min-height: 668px;
   height: 100vh;
   position: relative;
   display: flex;
@@ -267,7 +269,7 @@ footer {
   border-left: 1px solid var(--color-button-text);
   border-bottom: 1px solid var(--color-button-text);
   left: 24px;
-  bottom: 10px;
+  bottom: -13px;
 }
 
 .footer_title {
@@ -385,7 +387,6 @@ footer {
   }
 
   .footer {
-    min-height: 1054px;
     height: 100vh;
   }
 
@@ -480,7 +481,6 @@ footer {
   }
 
   .footer {
-    min-height: 690px;
     padding-block-start: 30px;
     height: 100vh;
   }
