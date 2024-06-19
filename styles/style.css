@@ -240,6 +240,7 @@
 footer {
   padding-block-start: 50px;
   min-height: 788px;
+  height: 100vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -385,6 +386,7 @@ footer {
 
   .footer {
     min-height: 1054px;
+    height: 100vh;
   }
 
   .footer_title {
@@ -480,6 +482,7 @@ footer {
   .footer {
     min-height: 690px;
     padding-block-start: 30px;
+    height: 100vh;
   }
 
   .footer_title {
