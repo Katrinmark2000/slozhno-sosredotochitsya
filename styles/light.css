@@ -11,6 +11,11 @@
       --text-color-decor: #353430;
       --color-section-title: #353430;
     }
+    .page.theme_auto {
+      .rec {
+        display: none;
+    }
+    }
   }
 
   .page.theme_light {
@@ -19,8 +24,3 @@
   }
 }
 
-.page.theme_auto {
-  .rec {
-    display: none;
-}
-}

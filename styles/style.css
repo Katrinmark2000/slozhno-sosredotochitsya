@@ -238,12 +238,13 @@
 }
 
 footer {
-  padding-block-start: 70px;
-  min-height: 768px;
+  padding-block-start: 50px;
+  min-height: 788px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .decor::after {
@@ -265,7 +266,7 @@ footer {
   border-left: 1px solid var(--color-button-text);
   border-bottom: 1px solid var(--color-button-text);
   left: 24px;
-  bottom: -10px;
+  bottom: 10px;
 }
 
 .footer_title {

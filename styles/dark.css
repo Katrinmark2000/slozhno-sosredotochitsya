@@ -11,23 +11,3 @@
   --color-section-title: #FF0070;
 }
 
-.page.theme_light {
-  .rec {
-    display: none;
-}
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-img: url(../images/cover-image-light.png);
-    --background-color: #fff1f7;
-    --main-font: "IBM Plex Mono", sans-serif;
-    --text-color: #353430;
-    --accent-color: #ff8dcb;
-    --title-color: #FFC2E6;
-    --color-button-text: #353430;
-    --color-hover-button: #32312D66;
-    --text-color-decor: #353430;
-    --color-section-title: #353430;
-  }
-}
