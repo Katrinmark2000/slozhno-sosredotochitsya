@@ -1,7 +1,7 @@
 :root {
   --background-color: #000028;
   --background-img: url(../images/cover-image-dark.png);
-  --main-font: "IBM Plex Mono", sans-serif;
+  --main-font: 'IBM Plex mono', sans-serif;
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
   --title-color: #DB00FF;
@@ -15,7 +15,7 @@
   .page.theme_light {
     --background-img: url(../images/cover-image-light.png);
     --background-color: #fff1f7;
-    --main-font: "IBM Plex Mono", sans-serif;
+    --main-font: 'IBM Plex mono', sans-serif;
     --text-color: #353430;
     --accent-color: #ff8dcb;
     --title-color: #FFC2E6;
