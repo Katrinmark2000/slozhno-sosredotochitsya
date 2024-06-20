@@ -239,6 +239,7 @@
 
 footer {
   min-height: 768px;
+  height: 100vh;
   margin-block-start: 36px;
   position: relative;
   display: flex;
