@@ -167,7 +167,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 18px;
-  padding-block-start: 74px;
+  padding-block-start: 94px;
 }
 
 .multitasking_article {
@@ -208,7 +208,6 @@
   padding-block-start: 16px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
-  
   gap: 20px;
 }
 
@@ -239,7 +238,6 @@
 
 footer {
   padding-block-start: 75px;
-  margin-block-end: 40px;
   min-height: 768px;
   height: 100vh;
   position: relative;
