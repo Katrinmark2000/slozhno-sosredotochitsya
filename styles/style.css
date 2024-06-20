@@ -167,7 +167,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 18px;
-  padding-block-start: 94px;
+  padding-block-start: 74px;
 }
 
 .multitasking_article {
@@ -237,14 +237,14 @@
 }
 
 footer {
-  padding-block-start: 75px;
+  margin-block-start: 40px;
   min-height: 768px;
   height: 100vh;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
- 
+  padding: 20px;
 }
 
 .decor::after {
@@ -255,7 +255,7 @@ footer {
   border-right: 1px solid var(--color-button-text);
   border-top: 1px solid var(--color-button-text);
   right: 23px;
-  top: 56px;
+  top: 17px;
 }
 
 .decor::before {
@@ -266,7 +266,7 @@ footer {
   border-left: 1px solid var(--color-button-text);
   border-bottom: 1px solid var(--color-button-text);
   left: 24px;
-  bottom: -10px;
+  bottom: 30px;
 }
 
 .footer_title {
