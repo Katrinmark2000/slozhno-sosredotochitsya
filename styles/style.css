@@ -237,9 +237,9 @@
 }
 
 footer {
-  margin-block-start: 40px;
-  min-height: 768px;
-  height: 100vh;
+  width: 100%;
+  min-height: 668px;
+  margin-block-start: 36px;
   position: relative;
   display: flex;
   justify-content: center;
