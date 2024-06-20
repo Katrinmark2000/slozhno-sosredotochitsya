@@ -133,6 +133,7 @@
 
 .main {
   font-size: 18px;
+  margin-block-start: 20px;
   font-family: var(--main-font);
   padding: 24px;
 }
@@ -455,10 +456,6 @@ footer {
     flex-direction: column;
     padding-block-start: 18px;
     gap: 0;
-  }
-
-  .section_title {
-    padding-block-start: 30px;
   }
 
   .gold_fish_article {
