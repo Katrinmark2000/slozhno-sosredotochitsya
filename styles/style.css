@@ -11,7 +11,7 @@
 
 .header {
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 1fr auto 1fr;
   height: 100vh;
   min-height: 668px;
   font-family: var(--main-font);
@@ -61,7 +61,6 @@
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-family: var(--main-font);
   font-weight: bold;
-  padding-block-start: 274px;
   text-shadow: 4px 4px 0 var(--accent-color);
   line-height: 82.5%;
   margin-inline-start: -18px;
@@ -70,7 +69,7 @@
 .paragraph_header {
   display: block;
   justify-self: flex-end;
-  padding-block-end: 117px;
+  align-self: center;
   max-width: 491px;
 }
 
@@ -308,12 +307,7 @@ footer {
     padding-block-start: 171px;
   }
 
-  .header_title {
-    padding-block-start: 175px;
-  }
-
   .paragraph_header {
-    padding-block-end: 164px;
     max-width: 364px;
   }
 
@@ -386,7 +380,7 @@ footer {
   }
 }
 
-@media (width <= 375px) {
+@media (width <= 475px) {
   .header__theme-menu-list {
     padding-block-start: 65px;
   
@@ -405,7 +399,6 @@ footer {
 
   .paragraph_header {
     padding-block-start: 54px;
-    padding-block-end: 0;
   }
 
   .decorated-zone::after {
