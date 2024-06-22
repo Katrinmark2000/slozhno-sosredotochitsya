@@ -69,7 +69,7 @@
 .paragraph_header {
   display: block;
   justify-self: flex-end;
-  max-width: 491px; 
+  max-width: 491px;
   align-self: center;
 }
 
@@ -208,7 +208,6 @@
 .gallery_decor {
   padding-block-start: 22px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
